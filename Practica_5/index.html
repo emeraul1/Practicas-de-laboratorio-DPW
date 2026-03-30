@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Básico</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form>
+            <h2>Registro</h2>
+
+            <label>Nombre</label>
+            <input type="text" placeholder="Ingresa tu nombre" required>
+
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="ejemplo@gmail.com" required>
+
+            <label>Contraseña</label>
+            <input type="password" placeholder="********" required>
+
+            <label>Género</label>
+            <div class="opciones">
+                <input type="radio" name="genero"> Femenino
+                <input type="radio" name="genero"> Masculino
+            </div>
+
+            <label>Intereses</label>
+            <div class="opciones">
+                <input type="checkbox"> Cocinar
+                <input type="checkbox"> Arte
+                <input type="checkbox"> Deportes
+                <input type="checkbox"> Bailar
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
