@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e8d4d4, #dff4ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* TARJETA */
+.perfil {
+    background-color: #c4e9f3;
+    padding: 35px 25px;
+    width: 260px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* IMAGEN PERFIL */
+.perfil img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid #d0eaf7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* NOMBRE */
+.perfil h2 {
+    margin: 10px 0 10px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* BIO */
+.bio {
+    margin-bottom: 20px;
+    line-height: 1.5; margin-bottom: 20px;
+    line-height: 1.5;
+    color: #607d8b;
+    font-size: 14px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stats h3 {
+    margin: 0;
+    color: #34495e;
+}
+
+.stats p {
+    margin: 0;
+    font-size: 13px;
+    color: #78909c;
+}
+
+/* BOTÓN */
+button {
+    background-color: #4da6d9;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER */
+button:hover {
+    background-color: #357ca5;
+    transform: scale(1.05);
+}
