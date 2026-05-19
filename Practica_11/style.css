@@ -1,0 +1,189 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CUERPO */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+/* ENCABEZADO */
+
+header{
+    background-color: #0077b6;
+    color: white;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MENÚ */
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+/* ENLACES */
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECCIÓN PRINCIPAL */
+
+.principal{
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* TEXTO */
+
+.texto{
+    flex: 1;
+}
+
+.texto h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* PÁRRAFO */
+
+.texto p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* BOTÓN */
+
+button{
+    background-color: #0077b6;
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+/* IMAGEN */
+
+.imagen{
+    flex: 1;
+}
+
+.imagen img{
+    width: 100%;
+    max-width: 500px;
+
+    border-radius: 10px;
+}
+
+/* TARJETAS */
+
+.tarjetas{
+    margin-top: 30px;
+
+    display: flex;
+    gap: 20px;
+}
+
+/* CARD */
+
+.card{
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    flex: 1;
+}
+
+/* TÍTULO DE CARD */
+
+.card h3{
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #0077b6;
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+
+    margin-top: 30px;
+}
+
+/* MEDIA QUERY PARA TABLET */
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .principal{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tarjetas{
+        flex-wrap: wrap;
+    }
+
+}
+
+/* MEDIA QUERY PARA CELULAR */
+
+@media (max-width: 480px){
+
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto h2{
+        font-size: 28px;
+    }
+
+    .tarjetas{
+        flex-direction: column;
+    }
+
+    button{
+        width: 100%;
+    }
+
+}
