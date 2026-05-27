@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- configuración -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotel Paraíso Azul</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- encabezado -->
+    <header class="bg-primary text-white text-center p-5">
+
+        <h1>Hotel Paraíso Azul</h1>
+
+        <p>Disfruta tus vacaciones frente al mar</p>
+
+    </header>
+
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+
+        <div class="container">
+
+            <!-- logo -->
+            <a class="navbar-brand fw-bold fs-3" href="#">
+                Paraíso Azul
+            </a>
+
+            <!-- boton responsive -->
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- opciones -->
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3 active" href="#">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">
+                            Habitaciones
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- sección principal -->
+    <section class="container mt-5">
+
+        <div class="row align-items-center">
+
+            <!-- texto -->
+            <div class="col-lg-6">
+
+                <h2>
+                    Disfruta unas vacaciones increíbles
+                </h2>
+
+                <p>
+                    Vive una experiencia única en nuestro hotel de playa,
+                    con habitaciones cómodas, piscina y restaurante.
+                </p>
+
+                <button class="btn btn-primary">
+                    Reservar Ahora
+                </button>
+
+            </div>
+
+            <!-- imagen -->
+            <div class="col-lg-6 text-center">
+
+                <img src="./img/hotel.jpg"
+                    alt="Hotel"
+                    class="img-fluid rounded shadow">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- tarjetas -->
+    <section class="container mt-5">
+
+        <h2 class="text-center mb-4">
+            Nuestros Servicios
+        </h2>
+
+        <div class="row">
+
+            <!-- tarjeta 1 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="./img/hotel_habitacion.jpg"
+                        class="card-img-top"
+                        alt="Habitación">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Habitaciones
+                        </h5>
+
+                        <p class="card-text">
+                            Habitaciones modernas y cómodas.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Ver más
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- tarjeta 2 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="./img/hotel_piscinas.jpg"
+                        class="card-img-top"
+                        alt="Piscina">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Piscina
+                        </h5>
+
+                        <p class="card-text">
+                            Relájate en nuestra piscina frente al mar.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Ver más
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- tarjeta 3 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="./img/hote_resturante.jpg"
+                        class="card-img-top"
+                        alt="Restaurante">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Restaurante
+                        </h5>
+
+                        <p class="card-text">
+                            Disfruta comida deliciosa todos los días.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Ver más
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- galeria -->
+    <section class="container mt-5">
+
+        <h2 class="text-center mb-4">
+            Galería
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-3 mb-3">
+
+                <img src="./img/hotel.jpg"
+                    class="img-fluid rounded galeria"
+                    alt="">
+
+            </div>
+
+            <div class="col-md-3 mb-3">
+
+                <img src="./img/hotel_habitacion.jpg"
+                    class="img-fluid rounded galeria"
+                    alt="">
+
+            </div>
+
+            <div class="col-md-3 mb-3">
+
+                <img src="./img/hotel_piscinas.jpg"
+                    class="img-fluid rounded galeria"
+                    alt="">
+
+            </div>
+
+            <div class="col-md-3 mb-3">
+
+                <img src="./img/hote_resturante.jpg"
+                    class="img-fluid rounded galeria"
+                    alt="">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+
+        <p>
+            © 2026 Hotel Paraíso Azul
+        </p>
+
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

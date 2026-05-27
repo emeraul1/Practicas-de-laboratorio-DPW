@@ -1,0 +1,166 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cuerpo */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* encabezado */
+
+header h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 22px;
+}
+
+/* menu */
+
+.navbar{
+    padding: 15px 0;
+}
+
+/* logo */
+
+.navbar-brand{
+    letter-spacing: 1px;
+}
+
+/* opciones */
+
+.nav-link{
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+/* efecto */
+
+.nav-link:hover{
+    color: #0d6efd !important;
+}
+
+/* sección principal */
+
+.container h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container p{
+    font-size: 18px;
+}
+
+/* imagen */
+
+img{
+    width: 100%;
+}
+
+/* tarjetas */
+
+.card{
+    transition: 0.3s;
+    border: none;
+}
+
+/* efecto tarjetas */
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+/* imagenes cards */
+
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+/* galeria */
+
+.galeria{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+/* efecto galeria */
+
+.galeria:hover{
+    transform: scale(1.03);
+}
+
+/* footer */
+
+footer{
+    font-size: 18px;
+}
+
+/* tablet */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size: 40px;
+    }
+
+    header p{
+        font-size: 18px;
+    }
+
+    .container h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .card img{
+        height: 200px;
+    }
+
+}
+
+/* celular */
+
+@media(max-width:576px){
+
+    header h1{
+        font-size: 28px;
+    }
+
+    header p{
+        font-size: 16px;
+    }
+
+    .container h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .container p{
+        font-size: 16px;
+    }
+
+    .card img{
+        height: 180px;
+    }
+
+    .galeria{
+        height: 180px;
+    }
+
+    .navbar-brand{
+        font-size: 24px;
+    }
+
+}
